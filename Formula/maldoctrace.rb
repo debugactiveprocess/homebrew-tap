@@ -1,28 +1,28 @@
 class Maldoctrace < Formula
   desc "Static analyzer and safe VBA emulator for malicious Office documents"
   homepage "https://github.com/debugactiveprocess/MaldocTrace"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.3.0/maldocTrace_0.3.0_darwin_arm64.tar.gz"
-      sha256 "5d23fbd5134d8bb5b5a0210d79e1214c0d6238dd0b8773262df158f95417263b"
+      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.4.0/maldocTrace_0.4.0_darwin_arm64.tar.gz"
+      sha256 "5f3e11e6ae1835ece8b8d30c3936b1a069dc898a64975ea82029053eb2df3649"
     end
     on_intel do
-      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.3.0/maldocTrace_0.3.0_darwin_amd64.tar.gz"
-      sha256 "54ba3a54f55b0b644f4b01149c2d8974f54915f5e8de518937de433ae85350e0"
+      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.4.0/maldocTrace_0.4.0_darwin_amd64.tar.gz"
+      sha256 "a9755aac9e06a410eb8fab2ea5b4f8e702cd4cba576f8f718ab32a870be6dc9e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.3.0/maldocTrace_0.3.0_linux_arm64.tar.gz"
-      sha256 "50b03196022121587b979177ba3c2d2cdd945377d6aedeadda229f4133251a34"
+      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.4.0/maldocTrace_0.4.0_linux_arm64.tar.gz"
+      sha256 "3beeb0b85f8902d01985f05dc5333e4666c4d986a2912337e22bad59df5fa49a"
     end
     on_intel do
-      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.3.0/maldocTrace_0.3.0_linux_amd64.tar.gz"
-      sha256 "5120b4eb30a6ad21ef795b26635290f7c482a0bbb1f62117de3fcdd0fde7753e"
+      url "https://github.com/debugactiveprocess/MaldocTrace/releases/download/v0.4.0/maldocTrace_0.4.0_linux_amd64.tar.gz"
+      sha256 "26f5c1177c571c9056dc55bf01b30abeaf056b371c79d61f7b7e58328df1d1ba"
     end
   end
 
